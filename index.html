@@ -13,37 +13,136 @@
     />
   </head>
   <body>
-
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-form">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro -->
+    <div class="bg-primary text-white p-5 text-center">
+      <h1 class="fw-normal display-3">Welcome to My portfolio</h1>
+      <p class="fs-5 fw-lighter">I showcase my project and skills here.</p>
+    </div>
+
+    <!-- About me -->
+    <section id="about-me" class="container pt-5">
+      <h2 class="text-center">About Me</h2>
+      <div class="row pt-3">
+        <div class="col-sm-12 col-md-6 mb-3" style="height: 400px">
+          <img
+            class="h-100 w-100"
+            style="object-fit: cover"
+            src="https://plus.unsplash.com/premium_photo-1678566154673-a728037f3f00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1902&q=80"
+            alt="img-development"
+          />
+        </div>
+        <p class="col-sm-12 col-md-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas
+          felis et luctus elementum. Morbi lacinia nisl id ex accumsan posuere.
+          Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus
+          et ultrices posuere cubilia Curae; Donec elementum nunc at augue
+          faucibus, vel fringilla sem mollis. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="bg-light py-5 my-5">
+      <div class="container">
+        <h2 class="text-center mb-3">Portfolio</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 mt-sm-4">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="img-card-1" class="card-img-top" />
+              <div class="card-body">
+                <h4>Project 1</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Magni, quos.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 mt-sm-4">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1617349035633-952a8907bdb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="img-card-2" class="card-img-top" />
+              <div class="card-body">
+                <h4>Project 2</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Magni, quos.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 mt-sm-4">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1596635906764-86da37dcdf5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="img-card-3" class="card-img-top" />
+              <div class="card-body">
+                <h4>Project 3</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Magni, quos.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </section>
 
-
-
-
-    
-
-
-
-
+    <!-- Contact Us-->
+    <section id="contact-form" class="container mb-5">
+          <h2 class="text-center">Contact</h2>
+          <div class="row">
+              <div class="col-sm-12 col-md-6 mx-auto py-3 d-flex flex-column">
+                 <label for="name" class="form-label d-block mt-3">Name</label>
+                 <input type="text" placeholder="Kabeer Khan" id="name" class="form-control">
+                 <label for="email" class="form-label d-block mt-3">Email</label>
+                 <input type="email" placeholder="kabeerkhan7@gmail.com" id="email" class="form-control">
+                 <label for="message" class="form-label d-block mt-3">Message</label>
+                 <textarea placeholder="Write your message here..." id="message" rows="5"></textarea>
+                 <button class="btn btn-primary mt-4 fs-5">Submit</button>
+              </div>
+              
+          </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      © 2023 My Portfolio. All rights reserved.
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
